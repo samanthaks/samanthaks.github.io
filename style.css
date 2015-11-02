@@ -82,8 +82,14 @@ li{
 /* Mobile Integration */
 
 @media all and (max-width: 850px) {
+    body{
+        background: none;
+    }
     h1{
         font-size: 40px;
+    }
+    li{
+        display:block;
     }
     #page{
         width: 100%;
