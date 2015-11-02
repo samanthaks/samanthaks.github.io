@@ -84,17 +84,21 @@ li{
 @media all and (max-width: 850px) {
     body{
         background: none;
+        height:auto;
     }
     h1{
         font-size: 40px;
-    }
-    li{
-        display:block;
     }
     #page{
         width: 100%;
     }
     p{
         font-size: 14px;
+    }
+
+@media all and (max-width: 680px) {
+    li{
+        display:block;
+        padding-top: 20px;
     }
 }
