@@ -99,6 +99,6 @@ li{
 @media all and (max-width: 680px) {
     li{
         display:block;
-        padding-top: 20px;
+        padding: 12px 0px 12px 0px;
     }
 }
