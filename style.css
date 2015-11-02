@@ -101,4 +101,7 @@ li{
         display:block;
         padding: 12px 0px 12px 0px;
     }
+    footer{
+        padding-bottom: 20px;
+    }
 }
