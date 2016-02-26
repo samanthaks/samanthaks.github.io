@@ -1,0 +1,104 @@
+*{
+    font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 400px;
+    color: #72D8E8;
+}
+
+body{
+    background-color: #ffffff;
+    background-image: url(backgroundpic.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50% 100%;
+
+    height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+#contact-me{
+    align-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.fa-envelope-o, .fa-github, .fa-linkedin{
+    color:#72D8E8;
+}
+
+#fname1, #sname{
+    font-weight: 400;
+}
+
+footer{
+    padding: 20px 0px 30px 0px;
+}
+
+header{
+    text-align: center;
+}
+
+header, #contact-me, #content{
+    padding-left:50px;
+    padding-right:50px;
+}
+
+h1{
+    color: #72D8E8;
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: left; 
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#page{
+    background-color: #ffffff;
+    width: 65%;
+    height: 100%;
+    overflow: scroll;
+    position: absolute;
+    left: 0;
+}
+
+p{
+    color: gray;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+li{
+    display: inline;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Mobile Integration */
+
+@media all and (max-width: 900px) {
+    body{
+        background: none;
+        height:auto;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #page{
+        width: 100%;
+    }
+    p{
+        font-size: 15px;
+    }
+
+@media all and (max-width: 680px) {
+    li{
+        display:block;
+        padding: 12px 0px 12px 0px;
+    }
+}
