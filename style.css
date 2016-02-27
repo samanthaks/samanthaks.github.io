@@ -163,6 +163,8 @@ ul{
     }
     p{
         font-size: 15px;
+        padding-left: 1em;
+        padding-right: 1em;
     }
     .photobox{
         width: 85%;
