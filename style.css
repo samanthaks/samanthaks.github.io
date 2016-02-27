@@ -144,6 +144,10 @@ ul{
         background: none;
         height:auto;
     }
+    #contact-me, #content{
+        padding-left: .25em;
+        padding-right: .25em;
+    }
     h1{
         font-size: 40px;
     }
@@ -163,6 +167,7 @@ ul{
     .photobox{
         width: 85%;
     }
+    
 
 @media all and (max-width: 680px) {
     li{
