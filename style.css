@@ -9,7 +9,7 @@ a{
 }
     
 .main-body{
-    background: url(backgroundpic.jpg);
+    background: url(/pics/backgroundpic.jpg);
     background-size: 100vh 100vh;
     background-position: right bottom;
     padding: 0;
@@ -53,11 +53,29 @@ h1{
     margin-bottom: 0;
 }
 
+h3{
+    text-align: center;
+    color: grey;
+    letter-spacing: 7px;
+    padding: 2em;
+}
+
 h4 , .nav-a{
     margin-top: 8px;
+    margin-bottom: 10px;
     text-align: center;
     font-weight: 300;
     color: gray;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#geotag:hover {
+    background-color: black;
+    opacity: .7;
 }
 
 #page-main{
@@ -83,21 +101,26 @@ p{
     line-height: 150%;
 }
 
-.portfolio-pics{
-    width: 50%;
-    height: 50%;
-    text-align: center;
-    align-content: center;
-    padding: 2em;
+.photobox{
+    box-sizing: border-box;
     margin: 0;
+    width: 50%;
+}
+
+
+.pbs{
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: middle;
     
 }
 
 li{
     display: inline;
     list-style: none;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 1em;
 }
 
 .nav-a:hover{
@@ -106,6 +129,12 @@ li{
 
 .nav-divider{
     padding: 0 .5rem;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    
 }
 
 /* Mobile Integration */
@@ -130,4 +159,14 @@ li{
         display:block;
         padding: 12px 0px 12px 0px;
     }
+}
+
+#geotag.hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5); 
 }
