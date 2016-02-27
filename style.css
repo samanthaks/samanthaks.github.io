@@ -8,7 +8,7 @@ a{
     color: #72D8E8;
 }
     
-body{
+.main-body{
     background: url(backgroundpic.jpg);
     background-size: 100vh 100vh;
     background-position: right bottom;
@@ -48,12 +48,19 @@ h1{
     font-style: normal;
     font-size: 50px;
     font-weight: 100;
-    text-align: left; 
+    text-align: center; 
     padding-top: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 0;
 }
 
-#page{
+h4 , .nav-a{
+    margin-top: 8px;
+    text-align: center;
+    font-weight: 300;
+    color: gray;
+}
+
+#page-main{
     background-color: #ffffff;
     width: 60%;
     height: 100%;
@@ -62,10 +69,28 @@ h1{
     left: 0;
 }
 
+#page-portfolio{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+}
+
 p{
     color: gray;
     font-size: 20px;
     line-height: 150%;
+}
+
+.portfolio-pics{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    align-content: center;
+    padding: 2em;
+    margin: 0;
+    
 }
 
 li{
@@ -73,6 +98,14 @@ li{
     list-style: none;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.nav-a:hover{
+    font-weight: 500;
+}
+
+.nav-divider{
+    padding: 0 .5rem;
 }
 
 /* Mobile Integration */
