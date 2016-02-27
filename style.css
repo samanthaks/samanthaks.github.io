@@ -139,7 +139,7 @@ ul{
 
 /* Mobile Integration */
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1000px) {
     body{
         background: none;
         height:auto;
@@ -147,11 +147,21 @@ ul{
     h1{
         font-size: 40px;
     }
-    #page{
+    h3{
+        letter-spacing: 3px;
+        padding: 1em;
+    }
+    h4 , .nav-a{
+        padding-bottom: 1em;
+    }
+    #page-main{
         width: 100%;
     }
     p{
         font-size: 15px;
+    }
+    .photobox{
+        width: 85%;
     }
 
 @media all and (max-width: 680px) {
