@@ -188,7 +188,7 @@ ul{
         width: 85%;
     }
 }
-@media all and (max-width: 350px) {
+@media all and (max-width: 400px) {
     li{
         display: block;
         padding: 12px 0px 12px 0px;
